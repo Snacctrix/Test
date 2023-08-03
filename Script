@@ -388,4 +388,8 @@ end
 coroutine.wrap(OMQRQRC_fake_script)()
 end)
 end) 
+local Section = Tab:NewSection("Common game scripts")
+Section:NewButton("Mm2 hub", "MM2 hub, pc and moblie", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
+end)
 
