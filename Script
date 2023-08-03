@@ -1,17 +1,17 @@
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; 
-Text = "Thanks for using trixhub!"; 
+Text = "Thanks for using trixhub! you need to click fly moblie to see the rest of the ui becsuse of a bug"; 
 Duration = 5; -- how long the notification should in secounds
 })local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Da trix93 hub", "Synapse")
 local Tab = Window:NewTab("Main")
-local Section = Tab:NewSection("Infinite yeild")
+local Section = Tab:NewSection("PC")
 Section:NewButton("Infinite yield", "Gives you Infinite yield", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-    print("a")
+    
 end)
-local Section = Tab:NewSection("Trolling")
+local Section = Tab:NewSection("Moblie")
 Section:NewButton("YEET gui", "Send the players to the void", function()
 local lp = game:FindService("Players").LocalPlayer
 
@@ -387,4 +387,5 @@ local function OMQRQRC_fake_script() -- ShiftlockStarterGui.LocalScript
 end
 coroutine.wrap(OMQRQRC_fake_script)()
 end)
+end) 
 
