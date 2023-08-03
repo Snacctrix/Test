@@ -142,5 +142,7 @@ end)
 notif("Loaded successfully! Created by scuba#0001, modded by trix.", 5)
 end)
 --New section--
-local Tab = Window:NewTab("Usefull")
+local Tab = Window:NewTab("Commonly used")
+
+
 
