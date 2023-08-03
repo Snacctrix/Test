@@ -1,7 +1,7 @@
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
-Title = "Welcome"; -- the title 
-Text = "Thanks for using trixhub!"; -- what the text says 
+Title = "Welcome"; 
+Text = "Thanks for using trixhub!"; 
 Duration = 5; -- how long the notification should in secounds
 })local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Da trix93 hub", "Synapse")
@@ -101,8 +101,8 @@ TextBox.BorderSizePixel = 0
 TextBox.Position = UDim2.new(0.0704845786, 0, 0.270642221, 0)
 TextBox.Size = UDim2.new(0, 388, 0, 62)
 TextBox.Font = Enum.Font.SourceSans
-TextBox.PlaceholderText = "Who do i destroy(can be shortened )"
-TextBox.Text = 
+TextBox.PlaceholderText = "Who do i destroy(can be shortened)"
+TextBox.Text = ""
 TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.TextScaled = true
 TextBox.TextSize = 14.000
@@ -139,7 +139,6 @@ TextButton.MouseButton1Click:Connect(function()
 end)
 
 --//fsddfsdf
-notif("Loaded successfully! Created by scuba#0001, modeed by trix.", 5)
-    print("Clicked")
+notif("Loaded successfully! Created by scuba#0001, modded by trix.", 5)
 end)
---
+
